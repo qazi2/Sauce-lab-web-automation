@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"Saucelab Demo Test","dependencies":{"chai-sorted":{"version":"0.2.0"},"cypress-parallel":{"version":"0.3.0"},"react-scripts":{"version":"3.4.0"}}}

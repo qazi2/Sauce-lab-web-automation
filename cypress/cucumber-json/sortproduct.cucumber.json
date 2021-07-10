@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sort products feature",
+    "line": 1,
+    "id": "sort-products-feature",
+    "tags": [],
+    "uri": "sortproduct.feature",
+    "elements": [
+      {
+        "id": "sort-products-feature;user-to-sort-products-by-(a-to-z)",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User to Sort products by (A to Z)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User select name a to z",
+            "result": {
+              "status": "passed",
+              "duration": 5376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to view products with a to z order",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sort-products-feature;user-to-sort-products-by-(z-to-a)",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User to Sort products by (Z to A)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User select name z to a",
+            "result": {
+              "status": "passed",
+              "duration": 5169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be able to view products with z to a order",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sort-products-feature;user-to-sort-products-by-price-(low-to-high)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User to Sort products by Price (low to high)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User select price low to high",
+            "result": {
+              "status": "passed",
+              "duration": 5167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should be able to view products with price low to high",
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sort-products-feature;user-to-sort-products-by-price-(high-to-low)",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "User to Sort products by Price (high to low)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "User select price high to low",
+            "result": {
+              "status": "passed",
+              "duration": 5161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "User should be able to view products with price high to low",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

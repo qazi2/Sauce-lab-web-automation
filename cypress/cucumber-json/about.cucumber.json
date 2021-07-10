@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "About page feature",
+    "line": 1,
+    "id": "about-page-feature",
+    "tags": [],
+    "uri": "about.feature",
+    "elements": [
+      {
+        "id": "about-page-feature;user-should-be-able-to-navigate-about-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User should be able to navigate about page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on menu button",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User clicks on about button",
+            "result": {
+              "status": "passed",
+              "duration": 2681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be redirected to about page",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

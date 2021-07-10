@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Complete a purchase",
+    "line": 1,
+    "id": "complete-a-purchase",
+    "tags": [],
+    "uri": "purchase.feature",
+    "elements": [
+      {
+        "id": "complete-a-purchase;user-to-add-multiple-items-in-cart-and-perform-a-successfull-purchase",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User to add multiple items in cart and perform a successfull purchase",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User adds multiple items to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enters its information",
+            "result": {
+              "status": "passed",
+              "duration": 735000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User validates the total sum",
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The purchase should be completed successfully",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

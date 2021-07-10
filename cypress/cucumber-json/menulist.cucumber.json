@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Menu list feature",
+    "line": 1,
+    "id": "menu-list-feature",
+    "tags": [],
+    "uri": "menulist.feature",
+    "elements": [
+      {
+        "id": "menu-list-feature;user-to-verify-item-inside-menu",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User to verify item inside menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6267000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on menu button",
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The item list should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

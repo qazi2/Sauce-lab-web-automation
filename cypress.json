@@ -1,0 +1,15 @@
+{
+  "chromeWebSecurity":false,
+  "defaultCommandTimeout": 12000,
+  "pageLoadTimeout": 30000,
+  "video": false, 
+  
+    "env": {
+        "url": "https://saucedemo.com/"
+    },
+
+    "testFiles": "**/*.{feature,features}",
+
+     "projectId": "fkfys9"
+
+}

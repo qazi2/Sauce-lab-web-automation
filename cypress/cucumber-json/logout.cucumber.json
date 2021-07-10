@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Logout functionality",
+    "line": 1,
+    "id": "logout-functionality",
+    "tags": [],
+    "uri": "logout.feature",
+    "elements": [
+      {
+        "id": "logout-functionality;user-to-logout-from-the-sauce-demo-web-app",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User to logout from the sauce demo web app",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be logged in",
+            "result": {
+              "status": "passed",
+              "duration": 6321000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on menu button",
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User clicks on logout button",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be logged out successfully",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
