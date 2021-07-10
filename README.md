@@ -21,25 +21,25 @@
 
 ### In order to get the code and install dependencies
 
-- git clone http://capmo-gmbh-qmchua@git.codesubmit.io/capmo-gmbh/secret-sauce-mtofgl
-- cd secret-sauce-mtofgl
-- npm install
+- ``` git clone http://capmo-gmbh-qmchua@git.codesubmit.io/capmo-gmbh/secret-sauce-mtofgl ```
+- ``` cd secret-sauce-mtofgl ```
+- ``` npm install ```
 
 ### Enter the following commands in terminal in order to execute test on chrome browser locally 
 
-- npm run test:chromeTest
+- ``` npm run test:chromeTest ```
 
 ### Enter the following command to visulaize test execution report
 
-- npm run TestExecutionreport 
+- ``` npm run TestExecutionreport ``` 
 
 ### Enter the following commands in terminal in order to execute test on electron browser locally
 
-- npm run test:electronTest
+- ``` npm run test:electronTest ```
 
 ### Enter the following command to visulaize test execution report
 
-- npm run TestExecutionreport 
+- ``` npm run TestExecutionreport ``` 
 
 ### Following is the report path
 
@@ -48,15 +48,15 @@
 
 ### Enter the following commands to run automated test inside docker container
 
-- docker run -it -v $PWD:/e2e -w /e2e --entrypoint=/bin/bash cypress/included:7.5.0
-- npm install -g cucumber-json-merge 
-- npm run test:chromeTest
-- npm run TestExecutionreport 
+- ``` docker run -it -v $PWD:/e2e -w /e2e --entrypoint=/bin/bash cypress/included:7.5.0 ```
+- ``` npm install -g cucumber-json-merge ``` 
+- ``` npm run test:chromeTest ```
+- ``` npm run TestExecutionreport ``` 
 
 ### Electron test
 
-npm run test:electronTest
-npm run TestExecutionreport 
+``` npm run test:electronTest ```
+``` npm run TestExecutionreport ``` 
 
 ### Screenshots
 
